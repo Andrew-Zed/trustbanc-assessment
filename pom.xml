@@ -11,9 +11,13 @@
 	<groupId>com.andrew</groupId>
 	<artifactId>Trustbanc-Assessment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Trustbanc-Assessment</name>
+    <packaging>pom</packaging>
+    <name>Trustbanc-Assessment</name>
 	<description>Demo project for Trustbanc</description>
-	<properties>
+    <modules>
+        <module>trustbank-soap-web-service</module>
+    </modules>
+    <properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
